@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AllowUserOverrides</key>
+			<true/>
+			<key>AllowedSystemExtensions</key>
+			<dict>
+				<key>PXPZ95SK77</key>
+				<array>
+					<string>com.paloaltonetworks.GlobalProtect.client.extension</string>
+				</array>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures System Extensions Policy</string>
+			<key>PayloadDisplayName</key>
+			<string>System Extension Policy</string>
+			<key>PayloadIdentifier</key>
+			<string>BA-00025777.28D0DDDC-5C1A-4691-AEA9-96AC5F003A25.com.apple.system-extension-policy.ACFC46EC-9612-4270-8D71-5398EDFD42F7</string>
+			<key>PayloadOrganization</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.system-extension-policy</string>
+			<key>PayloadUUID</key>
+			<string>ACFC46EC-9612-4270-8D71-5398EDFD42F7</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>FilterDataProviderBundleIdentifier</key>
+			<string>com.paloaltonetworks.GlobalProtect.client.extension</string>
+			<key>FilterDataProviderDesignatedRequirement</key>
+			<string>anchor apple generic and identifier "com.paloaltonetworks.GlobalProtect.client.extension" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = PXPZ95SK77)</string>
+			<key>FilterGrade</key>
+			<string>firewall</string>
+			<key>FilterPacketProviderBundleIdentifier</key>
+			<string>com.paloaltonetworks.GlobalProtect.client.extension
+</string>
+			<key>FilterPacketProviderDesignatedRequirement</key>
+			<string>anchor apple generic and identifier "com.paloaltonetworks.GlobalProtect.client.extension" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = PXPZ95SK77)</string>
+			<key>FilterPackets</key>
+			<true/>
+			<key>FilterSockets</key>
+			<true/>
+			<key>FilterType</key>
+			<string>Plugin</string>
+			<key>PayloadDescription</key>
+			<string>Adds a Web Content Filter</string>
+			<key>PayloadDisplayName</key>
+			<string>Web Content Filter</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.webcontent-filter.3A1EC650-2A1F-4CFE-931E-4BBD6989369B</string>
+			<key>PayloadOrganization</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.webcontent-filter</string>
+			<key>PayloadUUID</key>
+			<string>3A1EC650-2A1F-4CFE-931E-4BBD6989369B</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PluginBundleID</key>
+			<string>com.paloaltonetworks.GlobalProtect.client</string>
+			<key>UserDefinedName</key>
+			<string>GlobalProtectEn</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>GlobalProtect</string>
+	<key>PayloadDisplayName</key>
+	<string>GlobalProtect</string>
+	<key>PayloadIdentifier</key>
+	<string>BA-00025777.28D0DDDC-5C1A-4691-AEA9-96AC5F003A25</string>
+	<key>PayloadOrganization</key>
+	<string>Palo Alto Networks</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>28D0DDDC-5C1A-4691-AEA9-96AC5F003A25</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
